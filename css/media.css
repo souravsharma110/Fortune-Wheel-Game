@@ -1,0 +1,418 @@
+@media screen and (min-width: 1500px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1650px) {}
+
+@media screen and (max-width: 1415px) {}
+
+
+/*pad hor*/
+
+@media screen and (width: 1024px) and (height: 768px) {
+    .input-form {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .wrapper {
+        width: 100%;
+    }
+    .spin-root {
+        background-size: 100% 100%;
+    }
+    .middle-line p {
+        font-size: 1.7em;
+    }
+    .spin-middle .wheel-wrapper {
+        -webkit-transform: scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 1023px) {
+    .spin-middle .spin-number {
+        left: 50%;
+        top: 22%;
+        right: auto;
+        -webkit-transform: translate(-25%, -50%);
+        transform: translate(-25%, -50%);
+    }
+    .spin-middle .wheel-wrapper {
+        -webkit-transform: translateZ(0) scale(1);
+        transform: translateZ(0) scale(1);
+        padding: 35% 0;
+    }
+    .spin-middle .coins .card1 {
+        top: 17%;
+        right: 10%;
+        bottom: auto;
+        left: auto;
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .card2 {
+        top: auto;
+        right: auto;
+        bottom: 12%;
+        left: 12%;
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .chip1 {
+        top: 14%;
+        right: 16%;
+        -webkit-transform: translateZ(0) scale(0.9);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.9);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .chip2 {
+        top: 20%;
+        left: 26%;
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .chip3 {
+        bottom: 17%;
+        right: 13%;
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins img.chip4 {
+        top: 35%;
+        right: auto;
+        bottom: auto;
+        left: 12%;
+        -webkit-transform: translateZ(0) scale(0.7);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.7);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins img.chip5 {
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .kub1 {
+        bottom: auto;
+        right: 13%;
+        top: 20%;
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .kub2 {
+        top: auto;
+        left: auto;
+        bottom: 27%;
+        right: 13%;
+        -webkit-transform: translateZ(0) scale(0.9);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.9);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .kub3 {
+        bottom: 30%;
+        left: 15%;
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .coin1 {
+        top: 21%;
+        right: 27%;
+        -webkit-transform: translateZ(0) scale(0.8);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.8);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .coin2 {
+        bottom: 23%;
+        left: auto;
+        right: 23%;
+        -webkit-transform: translateZ(0) scale(0.9);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.9);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .coin3 {
+        top: 13%;
+        left: 10%;
+        -webkit-transform: translateZ(0) scale(0.9);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.9);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .coin4 {
+        bottom: 5%;
+        right: 35%;
+        -webkit-transform: translateZ(0) scale(0.9);
+        -webkit-transform-origin: 50% 50%;
+        transform: translateZ(0) scale(0.9);
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+    .spin-middle .coins .line {
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%) rotate(-58deg);
+        transform: translate(-50%, -50%) rotate(-58deg);
+    }
+    .spin-middle .coins .games,
+    .spin-middle .coins .spin {
+        display: none;
+    }
+    .spin-middle .coins .games-mob,
+    .spin-middle .coins .spin-mob,
+    .spin-middle .coins .line {
+        display: block;
+    }
+    .spin-middle .coins .spin-mob {
+        top: 11%;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+    .spin-middle .coins .games-mob {
+        bottom: 17%;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+    .spin-middle .coins .logo {
+        top: 3%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .spin-result-wrapper {
+        background-size: 100% 100vh;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .spin-root {
+        min-height: 100%;
+    }
+    .spin-middle .wheel-wrapper {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        padding: 45% 0;
+    }
+    .modal .modal-content .coins {
+        background-image: url(../images/prize-coins-mob.png);
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .spin-middle .wheel-wrapper {
+        -webkit-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+    .spin-middle .wheel-wrapper {
+        background-size: 100%;
+    }
+    .spin-middle .spinner .ringo {
+        max-width: 95%;
+    }
+    .spin-middle .sector {
+        padding-top: 15%;
+    }
+    .spin-middle .spin-number {
+        left: 52%;
+    }
+    .spin-middle .number {
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+    }
+    .spin-middle .number .number-dig {
+        font-size: 30px;
+    }
+    .spin-middle .number-text {
+        padding: 2.5px 15px 7.5px 35px;
+    }
+    .spin-middle .spinner button img {
+        width: 100px;
+        max-width: 100px;
+    }
+    .spin-middle .coins .card1 {
+        top: 10%;
+        right: -5%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins .card2 {
+        bottom: 10%;
+        left: -10%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins .chip1 {
+        top: 14%;
+        right: 16%;
+        -webkit-transform: translateZ(0) scale(0.7);
+        transform: translateZ(0) scale(0.7);
+    }
+    .spin-middle .coins .chip2 {
+        top: 22%;
+        left: 15%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins .chip3 {
+        bottom: 17%;
+        right: 8%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins img.chip4 {
+        top: 35%;
+        left: 0%;
+        -webkit-transform: translateZ(0) scale(0.7);
+        transform: translateZ(0) scale(0.7);
+    }
+    .spin-middle .coins img.chip5 {
+        right: -5%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins .kub1 {
+        right: 5%;
+        top: 18%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins .kub2 {
+        bottom: 27%;
+        right: 13%;
+        -webkit-transform: translateZ(0) scale(0.7);
+        transform: translateZ(0) scale(0.7);
+    }
+    .spin-middle .coins .kub3 {
+        bottom: 30%;
+        left: 15%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins .coin1 {
+        top: 21%;
+        right: 27%;
+        -webkit-transform: translateZ(0) scale(0.6);
+        transform: translateZ(0) scale(0.6);
+    }
+    .spin-middle .coins .coin2 {
+        bottom: 23%;
+        right: 23%;
+        -webkit-transform: translateZ(0) scale(0.7);
+        transform: translateZ(0) scale(0.7);
+    }
+    .spin-middle .coins .coin3 {
+        top: 13%;
+        left: 0%;
+        -webkit-transform: translateZ(0) scale(0.7);
+        transform: translateZ(0) scale(0.7);
+    }
+    .spin-middle .coins .coin4 {
+        bottom: 0%;
+        right: 20%;
+        -webkit-transform: translateZ(0) scale(0.7);
+        transform: translateZ(0) scale(0.7);
+    }
+    .spin-middle .coins .line {
+        width: 50%;
+    }
+    .modal .modal-content .popup {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    .spin-middle .sector span {
+        font-size: 3vw;
+    }
+    .spin-middle .number-text {
+        font-size: 3.5vw;
+    }
+    .modal .modal-content .popup .popup-congrats span {
+        font-size: 4.5vw;
+    }
+    .spin-middle .spin-number {
+        top: 25%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .spin-middle .number {
+        width: 64px;
+        height: 64px;
+    }
+    .spin-middle .number .number-dig {
+        font-size: 6vw;
+    }
+}
+
+@keyframes anime2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-height: 415px) {
+    dle-line-left {}
+    */
+}
+
+@media screen and (max-width: 360px) {
+    .modal .modal-content .popup {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 330px) {}
